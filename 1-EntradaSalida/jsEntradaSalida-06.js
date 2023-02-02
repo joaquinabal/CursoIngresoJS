@@ -4,10 +4,13 @@ transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
 {
-	let numeroUno = parseInt(txtIdNumeroUno.value);
-	let numeroDos = parseInt(txtIdNumeroDos.value);
+	let numeroUno = txtIdNumeroUno.value;
+	let numeroDos = txtIdNumeroDos.value;
 
-	let sumaNumeros = numeroUno + numeroDos;
+	let intNumeroUno = parseInt(numeroUno);
+	let intNumeroDos = parseInt(numeroDos);
+
+	let sumaNumeros = intNumeroUno + intNumeroDos;
 
 	alert("la suma es " + sumaNumeros);
 }
