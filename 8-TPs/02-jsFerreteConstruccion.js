@@ -27,7 +27,6 @@ function Materiales ()
 {
     let largo = parseInt(txtIdLargo.value);
     let ancho = parseInt(txtIdAncho.value);
-    let radio = parseInt(txtIdRadio.value);
 
     let areaRectangulo = ancho * largo;
 
