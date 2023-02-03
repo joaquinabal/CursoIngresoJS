@@ -5,6 +5,7 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 function mostrar()
 {
 	let dato = prompt("Ingresar dato.");
+	
 	txtIdNombre.value = dato;
 }
 

@@ -5,5 +5,13 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	alert("ok");
+	let importe;
+	let resultado;
+
+	importe = txtIdImporte.value;
+	importe = parseFloat(importe);
+
+	resultado = importe * 0.75;
+
+	txtIdResultado.value = resultado.toFixed(2); //.toFixed(n) siendo n la cantidad de decimales que busco
 }
